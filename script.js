@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const keyboard = document.getElementById('keyboard');
     const restartButton = document.getElementById('restart-button');
 
-    const slovnik = ["jablko", "domino", "rybník", "lavice", "tradic"]; // Předem definovaný seznam
+    const slovnik = ["jablko", "domino", "rybník", "lavice", "tradic, aaaaaa, hledám"]; // Předem definovaný seznam
     let slovo = slovnik[Math.floor(Math.random() * slovnik.length)]; // Náhodný výběr slova
     let slovoZadano = "";
     let pokus = 0;
